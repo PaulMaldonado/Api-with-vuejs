@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar />
     <Api />
+    <Form />
   </div>
 </template>
 
@@ -13,7 +14,7 @@ export default {
   name: 'App',
   components: {
     Navbar,
-    Api
+    Api,
   }
 }
 </script>
